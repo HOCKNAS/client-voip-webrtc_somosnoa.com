@@ -56,14 +56,14 @@ export default class Login extends React.Component
 
 						<div className='form-container'>
 							<TextField
-								floatingLabelText='Your Name'
+								floatingLabelText='Nombre de Usuario'
 								value={settings.display_name || ''}
 								errorText={state.errors.name}
 								fullWidth
 								onChange={this.handleChangeName.bind(this)}
 							/>
 							<FlatButton
-								label='Reset'
+								label='Reiniciar'
 								primary
 								style={{
 									display : 'table',
