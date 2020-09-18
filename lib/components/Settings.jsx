@@ -33,7 +33,7 @@ export default class Settings extends React.Component
 		return (
 			<TransitionAppear duration={250}>
 				<div data-component='Settings'>
-					<h1>JsSIP UA settings</h1>
+					<h1>Configuración del cliente</h1>
 
 					<div className='item'>
 						<TextField
@@ -91,7 +91,7 @@ export default class Settings extends React.Component
 						/>
 					</div>
 
-					<div className='item'>
+					{/* <div className='item'>
 						<TextField
 							floatingLabelText='Contact URI'
 							value={settings.contact_uri || ''}
@@ -189,7 +189,7 @@ export default class Settings extends React.Component
 							fullWidth
 							onChange={this.handleChangeCallstatsAppSecret.bind(this)}
 						/>
-					</div>
+					</div> */}
 
 					<div className='separator'/>
 
