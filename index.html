@@ -17,46 +17,46 @@
 			window.antiglobal('___browserSync___oldSocketIo', 'JSON3', 'io', '___browserSync___', '__core-js_shared__', 'MediaStream', 'RTCPeerConnection', 'callstats', 'jssipCallstats');
 			setInterval(window.antiglobal, 5000);
 		</script>
-		<script src='https://api.callstats.io/static/callstats.min.js'></script>
-		<script src='https://api.callstats.io/static/callstats-jssip.min.js'></script>
+		<!-- <script src='https://api.callstats.io/static/callstats.min.js'></script>
+		<script src='https://api.callstats.io/static/callstats-jssip.min.js'></script> -->
 
 		<script>
-			// Uncomment and fill the SETTINGS object in order to use hardcoded settings
-			//
-			// You don't need to set display_name nor uri, they can be set via HTTP form in
-			// the Login section of the web
-			//
-			//window.SETTINGS =
-			// {
-			// 	display_name        : null,
-			// 	uri                 : 'sip:5300@voip.freepbx.ml',
-			// 	password            : '54123Ab',
-			//	socket              :
-			//	{
-			// 		uri           : 'wss://voip.freepbx.ml:8089/ws',
-			// 		via_transport : 'WSS',
-			// 	},
-			// 	registrar_server    : voip.freepbx.ml,
-			// 	contact_uri         : null,
-			// 	authorization_user  : null,
-			// 	instance_id         : null,
-			// 	session_timers      : true,
-			// 	use_preloaded_route : false,
-			// 	pcConfig            :
-			// 	{
-			// 		rtcpMuxPolicy : 'negotiate',
-			// 		iceServers    :
-			// 		[
-			// 			{ urls : [ 'stun:stun.l.google.com:19302' ] }
-			// 		]
-			// 	},
-			// 	callstats           :
-			// 	{
-			// 		enabled   : false,
-			// 		AppID     : null,
-			// 		AppSecret : null
-			// 	}
-			// };
+			 Uncomment and fill the SETTINGS object in order to use hardcoded settings
+			
+			 You don't need to set display_name nor uri, they can be set via HTTP form in
+			 the Login section of the web
+			
+			window.SETTINGS =
+			 {
+			 	display_name        : 'agente_1',
+			 	uri                 : 'sip:3001@voip.somosnoa.com'',
+			 	password            : '54123Ab',
+				socket              :
+				{
+			 		uri           : 'wss://voip.somosnoa.com:8089/ws',
+			 		via_transport : 'WSS',
+			 	},
+			 	registrar_server    : voip.somosnoa.com,
+			 	contact_uri         : null,
+			 	authorization_user  : null,
+			 	instance_id         : null,
+			 	session_timers      : false,
+			 	use_preloaded_route : false,
+			 	pcConfig            :
+			 	{
+			 		rtcpMuxPolicy : 'negotiate',
+			 		iceServers    :
+			 		[
+			 			{ urls : [ 'stun:stun.l.google.com:19302' ] }
+			 		]
+			 	},
+			 	callstats           :
+			 	{
+			 		enabled   : false,
+			 		AppID     : null,
+			 		AppSecret : null
+			 	}
+			 };
 		</script>
 
 		<script src='tryit-jssip.js'></script>
